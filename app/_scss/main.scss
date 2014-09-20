@@ -95,10 +95,47 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Dependencies
+   ========================================================================== */
+
+@import "bootstrap-sass-twbs/assets/stylesheets/_bootstrap";
+@import "bootflatv2/bootflat/scss/bootflat";
+
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+$lapis-lazuli: #1F4788;
+$navy-blue:    #003171;
+
+/* ==========================================================================
+   Bootstrap overrides
    ========================================================================== */
 
 
+/* ==========================================================================
+   Page styles
+   ========================================================================== */
+
+$section-padding-vertical: 2 * $padding-large-vertical;
+
+section > .row {
+    padding: $section-padding-vertical inherit;
+}
+
+.row.contact-info {
+    background: $lapis-lazuli;
+    color: $white;
+    font-weight: 100;
+
+    .portrait {
+        text-align: center;
+
+        img {
+            max-width: 80%;
+        }
+    }
+}
 
 
 
