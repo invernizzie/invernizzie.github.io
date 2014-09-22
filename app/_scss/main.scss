@@ -112,6 +112,14 @@ $navy-blue:    #003171;
    Bootstrap overrides
    ========================================================================== */
 
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 100;
+}
 
 /* ==========================================================================
    Page styles
@@ -126,7 +134,6 @@ section > .row {
 .row.contact-info {
     background: $lapis-lazuli;
     color: $white;
-    font-weight: 100;
 
     .portrait {
         text-align: center;
