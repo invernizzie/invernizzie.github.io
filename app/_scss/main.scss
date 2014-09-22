@@ -137,6 +137,14 @@ section > .row {
     }
 }
 
+.social-link {
+    font-size: 1.5em;
+    margin-bottom: $padding-small-horizontal;
+
+    .img {
+        margin: auto $padding-large-vertical;
+    }
+}
 
 
 
