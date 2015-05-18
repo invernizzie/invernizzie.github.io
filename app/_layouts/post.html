@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
-<article class="post">
-{{ content }}
-</article>
+
+<div>
+
+	{% include header.html %}
+
+	<section class="container">
+		<article class="post row">
+		<p class="date">{{ page.date | date: '%B %-d, %Y'}}</p>
+		{{ content }}
+		</article>
+	</section>
+
+</div>
