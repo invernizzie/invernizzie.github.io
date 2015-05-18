@@ -95,15 +95,102 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Dependencies
    ========================================================================== */
 
+@import "bootstrap-sass-twbs/assets/stylesheets/_bootstrap";
+@import "bootflatv2/bootflat/scss/bootflat";
+
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+$lapis-lazuli: #1F4788;
+$navy-blue:    #003171;
+
+/* ==========================================================================
+   Bootstrap overrides
+   ========================================================================== */
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 100;
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 
 
+/* ==========================================================================
+   Page styles
+   ========================================================================== */
 
+$section-padding-vertical: 2 * $padding-large-vertical;
 
+section > .row {
+    padding: $section-padding-vertical inherit;
+}
 
+.row.header {
+    background: $lapis-lazuli;
+    color: $white;
 
+    .home-link {
+        font-size: 2.5em;
+    }
+}
+
+.row.contact-info {
+
+    .portrait {
+        text-align: center;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}
+
+.social-link {
+    color: white;
+    font-size: 1.5em;
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+        font-size: 1.2em;
+    }
+    margin-bottom: $padding-small-horizontal;
+}
+
+.thumb {
+    max-width: 64px;
+    margin: 0 1em;
+}
+
+article.post {
+    text-align: justify;
+    font-size: 1.8em;
+    max-width: 768px;
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    .date {
+        margin-bottom: -1.5em;
+        font-size: 0.8em;
+    }
+}
 
 
 
