@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Software development process"
+title:  "Crafting a development process"
 date:   2015-05-17 17:10:50 -0300
 categories: software management
 ---
 
-# Software development process
+# Crafting a development process
 
-A development process is a set of practices and techniques with the goal of ensuring certain properties of a software product and the project in which it's developed. Importantly, a develpoment process is not defined by tools but rather by activities.
+A software development process is a set of practices and techniques with the goal of ensuring certain properties of a software product and the project in which it's developed. Importantly, a develpoment process is not defined by tools but rather by activities.
 
 The creation of a software development process is the adoption of practices. Focus should be put on selecting practices that contribute to desirable properties of software.
 
