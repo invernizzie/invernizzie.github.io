@@ -145,9 +145,14 @@ section > .row {
 .row.header {
     background: $lapis-lazuli;
     color: $white;
+    padding: 5px inherit;
 
     .home-link {
         font-size: 2.5em;
+
+        a {
+            color: white;
+        }
     }
 }
 
@@ -177,13 +182,16 @@ section > .row {
     margin: 0 1em;
 }
 
+article {
+    font-size: 1.4em;
+}
+
 article.post {
-    text-align: justify;
-    font-size: 1.8em;
     max-width: 768px;
 
     p {
         margin-bottom: 1em;
+        text-align: justify;
     }
 
     .date {
@@ -191,14 +199,6 @@ article.post {
         font-size: 0.8em;
     }
 }
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
@@ -282,6 +282,23 @@ article.post {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    article {
+        font-size: 1.8em;
+    }
+    .header.row {
+        padding: 20px inherit;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Style adjustments for viewports that meet the condition */
+    .header {
+        font-size: 0.8em;
+
+        .thumb {
+            margin: 0 0.5em 0 0;
+        }
+    }
 }
 
 @media print,
