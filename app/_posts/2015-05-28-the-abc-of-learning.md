@@ -11,7 +11,7 @@ Regardless of the field, technology transforms economy and society as a whole. T
 
 ## There's too much to learn
 
-Technology is advancing at an exponential rate. We are fortunate about that. It's doing good all around the world. It's helping health, poverty, safety and economy in ways unimaginablebefore. Yet, it's also raising a whole set of new issues.
+Technology is advancing at an exponential rate. We are fortunate about that. It's doing good all around the world. It's helping health, poverty, safety and economy in ways unimaginable before. Yet, it's also raising a whole set of new issues.
 
 A critical one for professionals is that information is produced at a pace we can't keep up with. Not even by staying focused on a single field. Not even trying to be experts at a specialty of such a field. Trying to absorb everything would be useless. Unless we develop knowledge download _a la_ The Matrix, we'd be screwed.
 
